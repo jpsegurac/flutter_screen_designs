@@ -12,20 +12,20 @@ class BasicDesignScreen extends StatelessWidget {
       body: Column(
         children: [
           //imagen
-          Image(image: AssetImage('assets/images/landscape.png')),
+          const Image(image: AssetImage('assets/images/landscape.png')),
 
           // Titulo independiente
-          Title(),
+          const Title(),
 
 
           //Botones
-          ButtonSection(),
+          const ButtonSection(),
 
           //Description
 
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 20,vertical: 10),
-            child: Text('Dolor esse ex cillum labore voluptate excepteur sunt et. Eiusmod dolor id anim nisi nisi aliquip sint mollit amet proident eu. Veniam aliquip amet elit commodo tempor ea.')
+            margin: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+            child: const Text('Dolor esse ex cillum labore voluptate excepteur sunt et. Eiusmod dolor id anim nisi nisi aliquip sint mollit amet proident eu. Veniam aliquip amet elit commodo tempor ea.')
           )
 
 
