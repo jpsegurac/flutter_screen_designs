@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      theme: ThemeData.dark(),
+      theme: ThemeData.light(),
       //set the screen you want to load
       initialRoute: 'home-screen',
       routes: {

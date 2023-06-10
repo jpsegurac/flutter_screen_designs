@@ -45,7 +45,7 @@ class CardTable extends StatelessWidget {
 }
 
 class _SingleCard extends StatelessWidget {
-  const _SingleCard({super.key, required this.icon, required this.color, required this.text});
+  const _SingleCard({ required this.icon, required this.color, required this.text});
 
   final IconData icon;
   final Color color;
@@ -60,20 +60,20 @@ class _SingleCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   backgroundColor: color,
-                  child: Icon(icon,size: 35,),
                   radius: 30,
+                  child: Icon(icon,size: 35,),
                 ),
                 const SizedBox(height: 15),
                 Text(text, style: const TextStyle(color: Colors.blue, fontSize: 18),)
               ],
             )
-            );
+           );
   }
 }
 
 class _CardBackground extends StatelessWidget {
   const _CardBackground({
-    super.key,
+    
     required this.column,
   });
 
@@ -82,7 +82,7 @@ class _CardBackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(15),
+      margin: const EdgeInsets.all(15),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(10),
         child: BackdropFilter(

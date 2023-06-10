@@ -26,9 +26,7 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _HomeBody extends StatelessWidget {
-  const _HomeBody({
-    super.key,
-  });
+  const _HomeBody();
 
   @override
   Widget build(BuildContext context) {
